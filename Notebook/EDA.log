@@ -1,0 +1,23 @@
+INFO 2021-07-28 21:40:15,910 - first log loading data from dvc
+DEBUG 2021-07-28 21:43:16,722 - diff parser start
+DEBUG 2021-07-28 21:43:16,723 - line_lengths old: 14; new: 5
+DEBUG 2021-07-28 21:43:16,723 - -> code[replace] old[1:1] new[1:2]
+DEBUG 2021-07-28 21:43:16,725 - parse_part from 1 to 2 (to 3 in part parser)
+DEBUG 2021-07-28 21:43:16,725 - -> code[equal] old[2:2] new[3:3]
+DEBUG 2021-07-28 21:43:16,726 - parse_part from 3 to 4 (to 4 in part parser)
+DEBUG 2021-07-28 21:43:16,726 - -> code[replace] old[3:13] new[4:4]
+DEBUG 2021-07-28 21:43:16,727 - -> code[equal] old[14:14] new[5:5]
+DEBUG 2021-07-28 21:43:16,727 - parse_part from 5 to 5 (to 4 in part parser)
+DEBUG 2021-07-28 21:43:16,728 - diff parser end
+INFO 2021-07-28 21:44:35,249 - train set shape: (1017209, 9)
+DEBUG 2021-07-28 21:45:22,974 - diff parser start
+DEBUG 2021-07-28 21:45:22,977 - line_lengths old: 5; new: 1
+DEBUG 2021-07-28 21:45:22,977 - -> code[replace] old[1:5] new[1:1]
+DEBUG 2021-07-28 21:45:22,978 - parse_part from 1 to 1 (to 0 in part parser)
+DEBUG 2021-07-28 21:45:22,978 - diff parser end
+INFO 2021-07-28 21:45:27,958 - train set shape: (1115, 10)
+DEBUG 2021-07-28 21:46:04,425 - diff parser start
+DEBUG 2021-07-28 21:46:04,425 - line_lengths old: 1; new: 1
+DEBUG 2021-07-28 21:46:04,426 - -> code[replace] old[1:1] new[1:1]
+DEBUG 2021-07-28 21:46:04,426 - parse_part from 1 to 1 (to 0 in part parser)
+DEBUG 2021-07-28 21:46:04,427 - diff parser end
